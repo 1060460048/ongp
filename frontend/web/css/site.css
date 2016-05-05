@@ -1,0 +1,48 @@
+.header .logo img {
+    max-height: 50px;
+    padding-right: 20px;
+    margin-top: -10px;
+}
+
+.header .logo h1 {
+    display: inline-block;
+    font-size: 24px;
+    color: #e4551d;
+}
+.footer .footer_top .row.footer_grid  ul.message{
+    color: #fff;
+}
+.footer .footer_top .row.footer_grid  ul.message h4{
+    padding-top: 8px;
+}
+.footer .footer_top .twitter{
+    color: #fff;
+}
+.footer .footer_midle ul.social_left li.fb_text{
+    margin-top: 1.5em;
+}
+.footer .footer_top .footer_head p{
+    line-height: 1.6em;
+}
+.nbs-flexisel-container .nbs-flexisel-inner .nbs-flexisel-item img{
+    max-height: 150px;
+}
+.featured_content img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.pagination > .active > a{
+    border-color: #ddd;
+}
+.blog_grid a img{
+    max-height: 250px;
+}
+.related_posts .related_box img{
+    max-width: 150px;
+    max-height: 100px;
+}
+@media screen and (max-width: 600px) {
+    .blog_grid1 a img {
+        max-width: 300px;
+    }
+}
