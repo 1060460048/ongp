@@ -4,9 +4,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => "mysql:host=$host;dbname=php",
-            'username' => 'adminEuvydx4',
-            'password' => 'vMv6F7R88AR2',
+            'dsn' => "mysql:host=$host;dbname=ongp",
+            'username' => 'admin8Z5Ctap',
+            'password' => 'huxYp1Mf7Xrv',
             'charset' => 'utf8',
         ],
         'mailer' => [
