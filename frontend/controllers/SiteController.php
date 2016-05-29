@@ -1,6 +1,7 @@
 <?php
 namespace frontend\controllers;
 
+use common\models\LoginForm;
 use common\models\Slider;
 use Yii;
 use frontend\models\ContactForm;
@@ -94,5 +95,17 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+
+    public function actionLogin()
+    {
+        $model = new LoginForm();
+        if ($model->load(Yii::$app->request->post()) && $model->login()) {
+            $this->redirect('/backend',302);
+        } else {
+            return $this->render('login', [
+                'model' => $model,
+            ]);
+        }
     }
 }

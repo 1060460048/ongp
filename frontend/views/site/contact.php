@@ -8,7 +8,7 @@ use yii\captcha\Captcha;
 /* @var $model \frontend\models\ContactForm */
 
 $header = "Зворотній зв'язок";
-//$this->title = Yii::$app->params['site_name'].$header ;
+$this->title = $header;
 //$this->params['breadcrumbs'][] = $header;
 
 ?>
@@ -16,7 +16,7 @@ $header = "Зворотній зв'язок";
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1><?= $header ?></h1>
+                <h1><?//    = $header ?></h1>
             </div>
         </div>
     </div>

@@ -73,6 +73,7 @@ class Category extends \yii\db\ActiveRecord
         $categories = Category::getParentsOnly();
         $categories = self::categoryToList($categories);
         $categories[] = ['label' => "Зворотній зв'язок", 'url' => Url::toRoute(['/site/contact'])];
+        $categories[] = ['label' => "Вхід", 'url' => Url::toRoute(['/site/login'])];
         return $categories;
     }
 

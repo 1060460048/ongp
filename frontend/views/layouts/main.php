@@ -49,7 +49,7 @@ AppAsset::register($this);
     </div>
 
     <!----//start-breadcrumbs---->
-    <?php if (Yii::$app->controller->id != 'site' && Yii::$app->controller->action->id != 'index'): ?>
+    <?php if (Yii::$app->controller->action->id != 'index' || Yii::$app->controller->id != 'site'): ?>
     <div class="about">
 
         <div class="container">
